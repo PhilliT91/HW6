@@ -1,5 +1,7 @@
 package source;
 
+import source.Pets.Dog;
+import source.Pets.Fish;
 import source.WildAnimals.Lion;
 
 public class Main {
@@ -7,9 +9,13 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
 
-        Lion mufasa=new Lion();
 
-        mufasa.voice();
+        Fish nemo =new Fish();
+       nemo.voice();
+
+
+
+
 
 
     }

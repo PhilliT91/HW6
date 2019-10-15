@@ -14,11 +14,11 @@ public class Lion extends Wild {
         super(age,weight,color,true);
     }
 
-    /*@Override
+    @Override
     public void voice() {
         super.voice();
         System.out.println("Simba, remember who you are!");
-    }*/
+    }
 
 
 }
