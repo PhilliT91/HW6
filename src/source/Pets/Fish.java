@@ -14,9 +14,9 @@ public class Fish extends Pet implements Fishible {
 
     }
 
-  //  @Override
-  /*  public void voice() {
+  @Override
+   public void voice() {
         super.voice();
         System.out.println("........");
-    }*/
+    }
 }

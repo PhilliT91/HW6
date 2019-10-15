@@ -11,12 +11,13 @@ public class Main {
 
 
         Fish nemo =new Fish();
-       nemo.voice();
+       //nemo.voice();
 
+Animal beast=new Pet();
+beast.voice();
 
-
-
-
+beast=nemo;
+beast.voice();
 
     }
 }
