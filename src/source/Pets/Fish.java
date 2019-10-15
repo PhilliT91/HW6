@@ -1,9 +1,8 @@
 package source.Pets;
 
-import source.Fishible;
 import source.Pet;
 
-public class Fish extends Pet implements Fishible {
+public class Fish extends Pet {
 
     public Fish(){
         super();

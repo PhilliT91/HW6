@@ -2,7 +2,7 @@ package source;
 
 public class Animal {
 
-    static int id=0;
+    protected static int id=0;
     protected int age;
     protected int weight;
     protected String color;
