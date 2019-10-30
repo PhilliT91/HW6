@@ -1,8 +1,9 @@
 package source.WildAnimals;
 
+import source.Voiceble;
 import source.Wild;
 
-public class Girafee extends Wild {
+public class Girafee extends Wild implements Voiceble {
     public Girafee(){
         super();
         this.isPredator=false;

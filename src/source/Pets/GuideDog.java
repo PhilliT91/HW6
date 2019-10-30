@@ -1,6 +1,8 @@
 package source.Pets;
 
-public class GuideDog extends Dog {
+import source.Voiceble;
+
+public class GuideDog extends Dog implements Voiceble {
     boolean isTrained;
 public GuideDog(){
     super();

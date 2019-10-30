@@ -1,8 +1,9 @@
 package source.WildAnimals;
 
+import source.Voiceble;
 import source.Wild;
 
-public class Crocodile extends Wild {
+public class Crocodile extends Wild implements Voiceble {
 
 
     public Crocodile(){

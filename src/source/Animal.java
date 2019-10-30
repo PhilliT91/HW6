@@ -7,7 +7,7 @@ public class Animal {
     protected int weight;
     protected String color;
     public void voice (){
-        System.out.println("hello, i\'m animal");
+
 
     }
     public Animal(int age, int weight,String color ){

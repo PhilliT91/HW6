@@ -1,6 +1,6 @@
 package source;
 
-public class Pet extends Animal{
+public class Pet extends Animal   {
 
     String name;
     protected boolean isVaccinated;

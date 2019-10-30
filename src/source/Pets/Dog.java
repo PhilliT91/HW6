@@ -1,8 +1,9 @@
 package source.Pets;
 
 import source.Pet;
+import source.Voiceble;
 
-public class Dog extends Pet {
+public class Dog extends Pet implements Voiceble {
 
     public Dog(){
         super();

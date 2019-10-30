@@ -1,8 +1,9 @@
 package source.WildAnimals;
 
+import source.Voiceble;
 import source.Wild;
 
-public class Lion extends Wild {
+public class Lion extends Wild implements Voiceble {
 
 
     public Lion(){
